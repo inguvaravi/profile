@@ -1,0 +1,8 @@
+" Insert mode to normal mode
+:imap jj <Esc>
+
+" Searching related
+set incsearch                " incremental searching, searching is done while typing
+set ignorecase               " searches are case insensitive...
+set smartcase                " ... unless they contain at least one capital letter
+
